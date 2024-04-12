@@ -60,6 +60,12 @@ const microApps = [
     container: "#sub-app",
     activeRule: "/vue3",
   },
+  {
+    name: "sub-umi",
+    entry: "//localhost:3004",
+    container: "#sub-app",
+    activeRule: "/umi",
+  },
 ];
 
 registerMicroApps(microApps, {
