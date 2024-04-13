@@ -9,7 +9,7 @@ export default function BaseLayout() {
         <SideBar />
       </div>
       <div className="flex-1 h-full bg-gray-300 p-4">
-        <div className=" bg-white w-full h-full rounded-md overflow-hidden">
+        <div className=" bg-white w-full h-full rounded-md overflow-hidden box-border p-4">
           <div id="sub-app"></div>
           <Outlet />
         </div>
