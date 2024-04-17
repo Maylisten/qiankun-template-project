@@ -11,7 +11,7 @@ export async function getRoutes() {
 '1': React.lazy(() => import('./EmptyRoute')),
 '2': React.lazy(() => import(/* webpackChunkName: "p__page1__index" */'@/pages/page1/index.tsx')),
 '3': React.lazy(() => import(/* webpackChunkName: "p__page2__index" */'@/pages/page2/index.tsx')),
-'@@/global-layout': React.lazy(() => import(/* webpackChunkName: "layouts__index" */'/Users/may/Project/qiankkun/qiankun-test-project/sub-umi/src/layouts/index.tsx')),
+'@@/global-layout': React.lazy(() => import(/* webpackChunkName: "layouts__index" */'/Users/may/Project/qiankun/qiankun-test-project/sub-umi/src/layouts/index.tsx')),
 },
   };
 }

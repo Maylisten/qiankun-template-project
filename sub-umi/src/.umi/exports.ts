@@ -5,13 +5,13 @@
 export { defineApp } from './core/defineApp'
 export type { RuntimeConfig } from './core/defineApp'
 // plugins
-export { connectMaster, MicroAppLink } from '/Users/may/Project/qiankkun/qiankun-test-project/sub-umi/src/.umi/plugin-qiankun-slave';
+export { connectMaster, MicroAppLink } from '/Users/may/Project/qiankun/qiankun-test-project/sub-umi/src/.umi/plugin-qiankun-slave';
 // plugins types.d.ts
 // @umijs/renderer-*
-export { createBrowserHistory, createHashHistory, createMemoryHistory, Helmet, HelmetProvider, createSearchParams, generatePath, matchPath, matchRoutes, Navigate, NavLink, Outlet, resolvePath, useLocation, useMatch, useNavigate, useOutlet, useOutletContext, useParams, useResolvedPath, useRoutes, useSearchParams, useAppData, useClientLoaderData, useRouteProps, useSelectedRoutes, useServerLoaderData, renderClient, __getRoot, Link, useRouteData, __useFetcher, withRouter } from '/Users/may/Project/qiankkun/qiankun-test-project/sub-umi/node_modules/@umijs/renderer-react';
-export type { History } from '/Users/may/Project/qiankkun/qiankun-test-project/sub-umi/node_modules/@umijs/renderer-react'
+export { createBrowserHistory, createHashHistory, createMemoryHistory, Helmet, HelmetProvider, createSearchParams, generatePath, matchPath, matchRoutes, Navigate, NavLink, Outlet, resolvePath, useLocation, useMatch, useNavigate, useOutlet, useOutletContext, useParams, useResolvedPath, useRoutes, useSearchParams, useAppData, useClientLoaderData, useRouteProps, useSelectedRoutes, useServerLoaderData, renderClient, __getRoot, Link, useRouteData, __useFetcher, withRouter } from '/Users/may/Project/qiankun/qiankun-test-project/sub-umi/node_modules/@umijs/renderer-react';
+export type { History } from '/Users/may/Project/qiankun/qiankun-test-project/sub-umi/node_modules/@umijs/renderer-react'
 // umi/client/client/plugin
-export { ApplyPluginsType, PluginManager } from '/Users/may/Project/qiankkun/qiankun-test-project/sub-umi/node_modules/umi/client/client/plugin.js';
+export { ApplyPluginsType, PluginManager } from '/Users/may/Project/qiankun/qiankun-test-project/sub-umi/node_modules/umi/client/client/plugin.js';
 export { history, createHistory } from './core/history';
 export { terminal } from './core/terminal';
 // react ssr

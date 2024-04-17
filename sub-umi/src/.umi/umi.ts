@@ -3,13 +3,13 @@
 // DO NOT CHANGE IT MANUALLY!
 import './core/polyfill';
 
-import { renderClient } from '/Users/may/Project/qiankkun/qiankun-test-project/sub-umi/node_modules/@umijs/renderer-react';
+import { renderClient } from '/Users/may/Project/qiankun/qiankun-test-project/sub-umi/node_modules/@umijs/renderer-react';
 import { getRoutes } from './core/route';
 import { createPluginManager } from './core/plugin';
 import { createHistory } from './core/history';
 import { ApplyPluginsType } from 'umi';
 import { genMount as qiankun_genMount, genBootstrap as qiankun_genBootstrap, genUnmount as qiankun_genUnmount, genUpdate as qiankun_genUpdate } from '@@/plugin-qiankun-slave/lifecycles';
-import '/Users/may/Project/qiankkun/qiankun-test-project/sub-umi/src/.umi/plugin-tailwindcss/tailwind.css';
+import '/Users/may/Project/qiankun/qiankun-test-project/sub-umi/src/.umi/plugin-tailwindcss/tailwind.css';
 
 const publicPath = "/";
 const runtimePublicPath = true;

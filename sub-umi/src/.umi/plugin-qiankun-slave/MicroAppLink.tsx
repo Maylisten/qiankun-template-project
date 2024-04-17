@@ -13,8 +13,8 @@ import React, {
   HTMLAttributes,
   useCallback,
 } from 'react';
-import noop from '/Users/may/Project/qiankkun/qiankun-test-project/sub-umi/node_modules/lodash/noop';
-import find from '/Users/may/Project/qiankkun/qiankun-test-project/sub-umi/node_modules/lodash/find';
+import noop from '/Users/may/Project/qiankun/qiankun-test-project/sub-umi/node_modules/lodash/noop';
+import find from '/Users/may/Project/qiankun/qiankun-test-project/sub-umi/node_modules/lodash/find';
 import {
   qiankunStateFromMasterModelNamespace,
   defaultHistoryType,

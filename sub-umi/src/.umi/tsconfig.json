@@ -27,7 +27,7 @@
         "src/.umi/*"
       ],
       "@umijs/max": [
-        "/Users/may/Project/qiankkun/qiankun-test-project/sub-umi/node_modules/umi"
+        "/Users/may/Project/qiankun/qiankun-test-project/sub-umi/node_modules/umi"
       ],
       "@umijs/max/typings": [
         "src/.umi/typings"

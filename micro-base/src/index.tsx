@@ -9,7 +9,7 @@ import {
 } from "react-router-dom";
 import HomePage from "./pages/home";
 
-import { registerMicroApps, start } from "qiankun";
+import { registerMicroApps, start } from "qiankun/es";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -85,5 +85,5 @@ registerMicroApps(microApps, {
     },
   ],
 });
-
+debugger;
 start();
